@@ -5,10 +5,8 @@
     "version": "1.0",
     "description": "Performs actions when you hover over a tab.",
     "permissions": ["tabs"],
-    "action": {
-      "default_popup": "popup.html"
-    },
     "background": {
       "service_worker": "background.js"
     }
   }
+
